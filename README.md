@@ -7,7 +7,7 @@
 
 > **Similarity ✗ · Utility ✓**
 
-**Jetriever** is an agent-memory retrieval system that uses Jev to score the relevance of stored interactions to a query.
+**Jetriever** is an agent-memory retrieval system designed to identify which stored interactions are useful for a query.
 
 We will soon release the Jetriever code and technical report. If you are interested in the project, please star this repository and stay tuned.
 

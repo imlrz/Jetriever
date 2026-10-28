@@ -7,7 +7,7 @@
 
 > **Similarity ✗ · Utility ✓**
 
-**Jetriever** 是一个 Agent 记忆检索系统，使用 Jev 判断历史交互与当前问题的相关性。
+**Jetriever** 是一个 Agent 记忆检索系统，用于识别哪些历史交互对当前问题真正有用。
 
 我们即将开源 Jetriever 的代码与技术报告。如果你对本项目感兴趣，欢迎点击 Star，敬请期待。
 
