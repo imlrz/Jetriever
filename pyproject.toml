@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jetriever-agent-memory"
+version = "1.0.0"
+description = "Utility-oriented top-5 retrieval for agent memory"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "fastapi==0.141.1",
+  "httpx==0.28.1",
+  "pydantic==2.13.4",
+  "uvicorn[standard]==0.52.1",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+target-version = "py39"
+
+[tool.setuptools.packages.find]
+include = ["app*"]
