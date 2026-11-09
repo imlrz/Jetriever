@@ -1,0 +1,23 @@
+services:
+  jetriever:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      OPENROUTER_API_KEY: ${OPENROUTER_API_KEY:?set OPENROUTER_API_KEY}
+      JETRIEVER_API_KEY: ${JETRIEVER_API_KEY:?set JETRIEVER_API_KEY}
+      JEV_MODEL: "~typesafe/jev-latest"
+      JEV_CONCURRENCY: 32
+      JEV_TIMEOUT_SECONDS: 20
+      JEV_MAX_RETRIES: 5
+      BACKEND_RETRY_AFTER_SECONDS: 15
+      JETRIEVER_RESULT_LIMIT: 5
+      RETENTION_DAYS: 30
+      AUDIT_LOG_PATH: /logs/audit.jsonl
+    volumes:
+      - jetriever-data:/data
+      - jetriever-logs:/logs
+
+volumes:
+  jetriever-data:
+  jetriever-logs:

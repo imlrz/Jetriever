@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use Jetriever, please cite this software."
+title: "Jetriever"
+type: software
+version: 1.0.0
+date-released: 2026-11-09
+repository-code: "https://github.com/imlrz/Jetriever"
+license: MIT
+authors:
+  - family-names: Li
+    given-names: Ruizhe
+  - family-names: Xu
+    given-names: Benfeng
+  - family-names: Du
+    given-names: Mingxuan
+  - family-names: Zhang
+    given-names: Licheng
+  - family-names: Mao
+    given-names: Zhendong
