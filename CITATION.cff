@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use Jetriever, please cite this software."
+message: "If you use Jetriever, please cite the paper below."
 title: "Jetriever"
 type: software
 version: 1.0.0
@@ -17,3 +17,18 @@ authors:
     given-names: Licheng
   - family-names: Mao
     given-names: Zhendong
+preferred-citation:
+  type: article
+  title: "Jetriever: Shifting Agent Memory Retrieval from Similarity to Utility"
+  authors:
+    - family-names: Li
+      given-names: Ruizhe
+    - family-names: Zhang
+      given-names: Licheng
+    - family-names: Du
+      given-names: Mingxuan
+    - family-names: Mao
+      given-names: Zhendong
+  year: 2026
+  journal: "arXiv preprint arXiv:2611.21478"
+  url: "https://arxiv.org/abs/2611.21478"

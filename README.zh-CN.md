@@ -7,7 +7,7 @@
 [![代码](https://img.shields.io/badge/Code-Open_Source-2563eb?style=flat-square)](./app)
 [![测试](https://img.shields.io/github/actions/workflow/status/imlrz/Jetriever/tests.yml?branch=main&style=flat-square&label=Tests)](https://github.com/imlrz/Jetriever/actions)
 [![许可证](https://img.shields.io/badge/License-MIT-059669?style=flat-square)](./LICENSE)
-[![技术报告](https://img.shields.io/badge/Technical_Report-Coming_Soon-7c3aed?style=flat-square)](#引用)
+[![arXiv:2611.21478](https://img.shields.io/badge/arXiv-2611.21478-b31b1b?style=flat-square)](https://arxiv.org/abs/2611.21478)
 
 [English](./README.md) · [简体中文](./README.zh-CN.md)
 
@@ -20,6 +20,8 @@ Jetriever 是一个面向 Agent Memory 的检索服务。它不只比较文本�
 
 本仓库包含完整的 Add/Search API、SQLite 持久化、全局并发控制、重试与
 限流处理、隐私保护审计日志、Docker 部署文件以及接口契约测试。
+
+**论文：** [Jetriever: Shifting Agent Memory Retrieval from Similarity to Utility](https://arxiv.org/abs/2611.21478) · [PDF](https://arxiv.org/pdf/2611.21478v1)
 
 ## 方法
 
@@ -111,8 +113,9 @@ Jetriever 延续了我们在 Agent Memory 方向上的研究：
 
 ## 引用
 
-技术报告正在整理中。目前可以引用 [`CITATION.cff`](./CITATION.cff) 中的
-软件条目。
+如果你使用了 Jetriever，请引用[论文](https://arxiv.org/abs/2611.21478)。
+可直接复制[英文 README 中的 BibTeX](./README.md#citation)，或使用
+[`CITATION.cff`](./CITATION.cff) 中的引用信息。
 
 ## 许可证
 

@@ -7,7 +7,7 @@
 [![Code](https://img.shields.io/badge/Code-Open_Source-2563eb?style=flat-square)](./app)
 [![Tests](https://img.shields.io/github/actions/workflow/status/imlrz/Jetriever/tests.yml?branch=main&style=flat-square&label=Tests)](https://github.com/imlrz/Jetriever/actions)
 [![License](https://img.shields.io/badge/License-MIT-059669?style=flat-square)](./LICENSE)
-[![Technical Report](https://img.shields.io/badge/Technical_Report-Coming_Soon-7c3aed?style=flat-square)](#citation)
+[![arXiv:2611.21478](https://img.shields.io/badge/arXiv-2611.21478-b31b1b?style=flat-square)](https://arxiv.org/abs/2611.21478)
 
 [English](./README.md) · [简体中文](./README.zh-CN.md)
 
@@ -22,6 +22,8 @@ It does not generate the final answer or expand results with neighboring turns.
 The repository contains the complete Add/Search API, persistent SQLite store,
 bounded provider concurrency, retry and rate-limit handling, privacy-preserving
 audit logs, Docker packaging, and contract tests.
+
+**Paper:** [Jetriever: Shifting Agent Memory Retrieval from Similarity to Utility](https://arxiv.org/abs/2611.21478) · [PDF](https://arxiv.org/pdf/2611.21478v1)
 
 ## Method
 
@@ -121,8 +123,20 @@ Jetriever continues our work on agent memory:
 
 ## Citation
 
-The technical report is being prepared. For now, cite the software metadata in
-[`CITATION.cff`](./CITATION.cff).
+If you use Jetriever, please cite the [paper](https://arxiv.org/abs/2611.21478).
+Citation metadata is also available in [`CITATION.cff`](./CITATION.cff).
+
+```bibtex
+@misc{li2026jetriever,
+  title         = {{Jetriever}: Shifting Agent Memory Retrieval from Similarity to Utility},
+  author        = {Li, Ruizhe and Zhang, Licheng and Du, Mingxuan and Mao, Zhendong},
+  year          = {2026},
+  eprint        = {2611.21478},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url           = {https://arxiv.org/abs/2611.21478}
+}
+```
 
 ## License
 
