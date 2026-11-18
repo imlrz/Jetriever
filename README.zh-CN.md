@@ -5,7 +5,6 @@
 ### Similarity ✗ &nbsp;·&nbsp; Utility ✓
 
 [![代码](https://img.shields.io/badge/Code-Open_Source-2563eb?style=flat-square)](./app)
-[![测试](https://img.shields.io/github/actions/workflow/status/imlrz/Jetriever/tests.yml?branch=main&style=flat-square&label=Tests)](https://github.com/imlrz/Jetriever/actions)
 [![许可证](https://img.shields.io/badge/License-MIT-059669?style=flat-square)](./LICENSE)
 [![arXiv:2611.21478](https://img.shields.io/badge/arXiv-2611.21478-b31b1b?style=flat-square)](https://arxiv.org/abs/2611.21478)
 
